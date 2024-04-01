@@ -1,0 +1,15 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: #021431;
+}
+
+.login {
+    background-color: #021431;
+}

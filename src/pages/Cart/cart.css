@@ -1,0 +1,57 @@
+.color {
+    background-color: #021431;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.signUp {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    padding: 10px;
+    padding-left: 9600px;
+}
+
+.signUp span {
+    color: rgba(255, 255, 255, 0.700);
+}
+
+/* header */
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.headerColor {
+    background-color: #F0F6FF;
+}
+
+.about {
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #C7C9D1;
+}
+
+
+/* icons */
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.moon,
+.basket {
+    cursor: pointer;
+    font-size: 24px;
+    opacity: 0.699;
+}

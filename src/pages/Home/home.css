@@ -1,0 +1,62 @@
+.color {
+    background-color: #021431;
+}
+
+.signUp {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    padding: 7.5px 0px 7.5px 0px;
+    padding-left: 913px;
+}
+
+.signin {
+    color: #394E6A;
+    text-decoration: none;
+}
+
+
+/* header */
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+}
+
+.headerColor {
+    background-color: #F0F6FF;
+}
+
+.pages {
+    display: flex;
+    gap: 30px;
+}
+
+.home {
+    border-radius: 7px;
+    align-items: center;
+    display: flex;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #394E6A;
+}
+
+
+/* icons */
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.moon,
+.basket {
+    cursor: pointer;
+    font-size: 33px;
+    opacity: 0.699;
+}
