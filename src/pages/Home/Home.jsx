@@ -13,7 +13,7 @@ function Home() {
             <NavLink to='/register' className="register"><span>Create Account</span></NavLink>
           </div>
         </div>
-      </div>
+      </div> 
 
           <div className="headerColor">
             <div className="header">
