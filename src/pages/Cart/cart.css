@@ -1,4 +1,4 @@
-.color {
+.backColor {
     background-color: #021431;
 }
 
@@ -20,6 +20,10 @@
     color: rgba(255, 255, 255, 0.700);
 }
 
+.signin {
+    text-decoration: none;
+}
+
 /* header */
 
 .header {
@@ -28,17 +32,29 @@
     width: 100%;
 }
 
-.headerColor {
+.headercolor {
     background-color: #F0F6FF;
 }
 
-.about {
+.logoIcon {
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #006eff;
+    padding: 0px 15px;
+    border-radius: 10px;
+    color: rgba(230, 230, 230, 0.7);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cart {
     border-radius: 7px;
     align-items: center;
     display: flex;
     padding: 8px 16px;
     text-decoration: none;
-    color: #C7C9D1;
+    color: #394E6A;
 }
 
 
@@ -49,9 +65,8 @@
     gap: 10px;
 }
 
-.moon,
-.basket {
+.icon {
     cursor: pointer;
-    font-size: 24px;
+    font-size: 30px;
     opacity: 0.699;
 }

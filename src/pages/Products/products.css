@@ -1,4 +1,4 @@
-/* .color {
+.backcolor {
     background-color: #021431;
 }
 
@@ -12,14 +12,20 @@
     display: flex;
     gap: 15px;
     font-size: 14px;
-    padding: 10px;
-    padding-left: 9600px;
+    padding: 10px 32px;
+    padding-left: 941px;
 }
 
 .signUp span {
     color: rgba(255, 255, 255, 0.700);
+    text-decoration: none;
 }
 
+.signin {
+    text-decoration: none;
+}
+
+/*  */
 
 .header {
     max-width: 1200px;
@@ -31,6 +37,18 @@
     background-color: #F0F6FF;
 }
 
+.logoicon {
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #006eff;
+    padding: 0px 15px;
+    border-radius: 10px;
+    color: rgba(230, 230, 230, 0.7);
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .products {
     border-radius: 7px;
     align-items: center;
@@ -40,16 +58,19 @@
     color: #394E6A;
 }
 
-
+.active {
+    background-color: #021431;
+    color: white;
+}
 
 .actions {
     display: flex;
     gap: 10px;
 }
 
-.moon,
-.basket {
+.moonIcon,
+.basketIcon {
     cursor: pointer;
     font-size: 24px;
     opacity: 0.699;
-} */
+}
