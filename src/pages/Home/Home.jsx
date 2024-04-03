@@ -12,17 +12,7 @@ import { useEffect, useState } from "react";
 
 function Home() {
   const {t, i18n} = useTranslation();
-  const [lang, setLang] = useState('uz');
-
-  // useEffect(() => {
-  //   if (localStorage.getItem('lang')) {
-  //     i18n.changeLanguage(localStorage.setItem('lang'))
-  //     setLang(localStorage.getItem('lang'))
-  //   } else {
-  //     i18n.changeLanguage('uz')
-  //     setLang('uz')
-  //   }
-  // }, [])
+  const [lang, setLang] = useState('uz')
 
   function handleChange(e) {
     setLang(e.target.value);
@@ -30,15 +20,13 @@ function Home() {
     localStorage.setItem('lang', e.target.value)
   }
 
-  // const api = 'https://strapi-store-server.onrender.com/api/products?featured=true'
-
   return (
     <>
       <div className="color">
         <div className="container">
           <div className="signUp">
-            <NavLink to='/login' className="signin"><span>Sign in / Guest</span></NavLink>
-            <NavLink to='/register' className="register"><span>Create Account</span></NavLink>
+            <NavLink to='/login' className="signin"><span>{t("Sign in")} / {t("Guest")}</span></NavLink>
+            <NavLink to='/register' className="register"><span>{t("Create Account")}</span></NavLink>
           </div>
         </div>
       </div> 
@@ -70,7 +58,7 @@ function Home() {
           <div className="textArea w-50 mt-5 d-flex flex-column gap-3">
             <h1 className="heroTitle font-bold">{t('We are changing the way people shop')}</h1>
             <p className="desc">{t('Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repellat explicabo enim soluta temporibus asperiores aut obcaecati perferendis porro nobis.')}</p>
-            <button className="button btn btn-primary">{t('OUR PRODUCTS')}</button>
+            <NavLink to="/products"><button className="button btn btn-primary">{t('OUR PRODUCTS')}</button></NavLink>
           </div>
 
           {/* slider side */}

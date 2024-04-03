@@ -20,7 +20,10 @@
         "Shipping": "Shipping",
         "Tax": "Tax",
         "Order Total": "Order Total",
-        "PLEASE LOGIN": "PLEASE LOGIN"
+        "PLEASE LOGIN": "PLEASE LOGIN",
+        "signin": "login",
+        "guest": "mehmon",
+        "Create Account": "Create Account"
       }
     },
     "uz": {
@@ -45,7 +48,10 @@
           "Shipping": "Yetkazib berish",
           "Tax": "Soliq",
           "Order Total": "Jami buyurtma",
-          "PLEASE LOGIN": "Iltimos kiring"
+          "PLEASE LOGIN": "Iltimos kiring",
+          "Sign in": "Kirish",
+          "Guest": "Mehmon",
+          "Create Account": "Hisob yaratish"
       }
     }
 }

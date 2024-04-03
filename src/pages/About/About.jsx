@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { IoIosMoon } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { useEffect, useState } from "react";
 import './about.css'
 
@@ -24,8 +24,8 @@ function About() {
       <div className="color">
         <div className="container">
           <div className="signUp">
-            <NavLink to='/login' className="signin"><span>Sign in / Guest</span></NavLink>
-            <NavLink to='/register' className="register"><span>Create Account</span></NavLink>
+            <NavLink to='/login' className="signin"><span>{t("Sign in")} / {t("Guest")}</span></NavLink>
+            <NavLink to='/register' className="register"><span>{t("Create Account")}</span></NavLink>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ function About() {
               </div>
               <div className="actions">
                 <IoIosMoon className="moonicon" style={{fontSize: "30px"}} />
-                <BsCart3 className="basketicon" style={{fontSize: "30px"}} />
+                <Link to="/cart" className="basketicon"><BsCart3/></Link>
                 <select onChange={handleChange} value={lang} className="form-select">
                   <option value="uz">Uzbek</option>
                   <option value="eng">English</option>

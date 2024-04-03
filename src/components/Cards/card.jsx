@@ -1,9 +1,11 @@
 import card1 from '../../assets/card1.webp'
 import card2 from '../../assets/card2.jpeg'
 import card3 from '../../assets/card3.jpeg'
+import { useState, useEffect } from 'react'
 import './card.css'
 
 function Card() {
+
   return (
     <>
       <div className="pdc">

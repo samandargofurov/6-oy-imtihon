@@ -13,7 +13,6 @@
     gap: 15px;
     font-size: 14px;
     padding: 10px 32px;
-    padding-left: 960px;
 }
 
 .signUp {
@@ -28,6 +27,8 @@
     text-decoration: none;
 }
 
+
+/* header */
 
 .header {
     max-width: 1200px;
@@ -69,7 +70,9 @@
 .moonicon,
 .basketicon {
     cursor: pointer;
+    font-size: 18px;
     opacity: 0.699;
+    color: #394E6A;
 }
 
 /* hero page */

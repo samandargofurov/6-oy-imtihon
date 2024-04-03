@@ -25,8 +25,8 @@ function Cart() {
       <div className="backColor">
         <div className="container">
           <div className="signUp">
-            <NavLink to='/login' className="signin"><span>Sign in / Guest</span></NavLink>
-            <NavLink to='/register' className="register"><span>Create Account</span></NavLink>
+            <NavLink to='/login' className="signin"><span>{t("Sign in")} / {t("Guest")}</span></NavLink>
+            <NavLink to='/register' className="register"><span>{t("Create Account")}</span></NavLink>
           </div>
         </div>
       </div>

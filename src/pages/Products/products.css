@@ -13,7 +13,7 @@
     gap: 15px;
     font-size: 14px;
     padding: 10px 32px;
-    padding-left: 941px;
+    padding-left: 938px;
 }
 
 .signUp span {
@@ -68,9 +68,15 @@
     gap: 10px;
 }
 
-.moonIcon,
+.moonIcon {
+    cursor: pointer;
+    opacity: 0.699;
+    color: #394E6A;
+}
+
 .basketIcon {
     cursor: pointer;
-    font-size: 24px;
+    font-size: 18px;
     opacity: 0.699;
+    color: #394E6A;
 }
