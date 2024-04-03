@@ -70,3 +70,135 @@
     font-size: 30px;
     opacity: 0.699;
 }
+
+/* cart total cost */
+
+.shopCart {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 32px;
+    margin-top: 60px;
+}
+
+.nt {
+    font-size: 30px;
+    color: #394E6A;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #E2E8F4;
+    margin-bottom: 60px;
+}
+
+.order {
+    display: flex;
+    gap: 70px;
+}
+
+.cofetable {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.ctt {
+    font-size: 16px;
+}
+
+.place {
+    color: #C7C9D1;
+    font-size: 14px;
+}
+
+.paintCol {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+.paint {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 60px;
+}
+
+.number {
+    border: none;
+    outline: none;
+    border: 1px solid #C7C9D1;
+    border-radius: 6px;
+}
+
+.costotal {
+    margin-left: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d8d8d;
+}
+
+.procost {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F6FF;
+    padding: 30px;
+    border-radius: 13px;
+    width: 350px;
+    gap: 16px;
+}
+
+.cost {
+    font-weight: 500;
+    font-size: 14px;
+    color: #394E6A;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C7C9D1;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C7C9D1;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.tax {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C7C9D1;
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.ordertotal {
+    margin-top: 20px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.ordertotalcost {
+    font-weight: 600;
+    font-size: 15px;
+    color: #394E6A;
+}

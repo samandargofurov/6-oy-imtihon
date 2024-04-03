@@ -1,0 +1,31 @@
+.pdc {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pdct {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 8px 8px rgb(219, 219, 219);
+}
+
+.pdct:hover {
+    box-shadow: 20px 20px 50px rgb(199, 199, 199);
+}
+
+.lamp,
+.table,
+.bed {
+    width: 310px;
+    height: 250px;
+    border-radius: 20px;
+}
