@@ -3,7 +3,7 @@ import About from './pages/About/About'
 import Cart from './pages/Cart/Cart'
 import Home from './pages/Home/Home'
 import Products from './pages/Products/Products'
-import Cards from './components/Cards/card'
+import Cards from './components/HomeCard/card'
 import ProductDetails from './pages/ProductDetails/productDetails';
 
 function App() {

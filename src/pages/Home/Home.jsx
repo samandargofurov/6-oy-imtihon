@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import Card from "../../components/Cards/card"
+import Card from "../../components/HomeCard/card"
 import img1 from "../../assets/hero1.webp"
 import img2 from "../../assets/hero2.webp"
 import img3 from "../../assets/hero3.webp"
@@ -11,6 +11,7 @@ import './home.css'
 import { useEffect, useState } from "react";
 
 function Home() {
+  const [HomeProducts, setHomeProducts] = useState([])
   const {t, i18n} = useTranslation();
   const [lang, setLang] = useState('uz')
 
@@ -19,6 +20,17 @@ function Home() {
     i18n.changeLanguage(e.target.value);
     localStorage.setItem('lang', e.target.value)
   }
+
+  useEffect(() => {
+    fetch(`https://strapi-store-server.onrender.com/api/products?featured=true`)
+         .then(res => res.json())
+         .then(data => {
+              setHomeProducts(data.data)
+         })
+         .catch(err => {
+              console.log(err);
+         })
+  }, []);
 
   return (
     <>
@@ -81,7 +93,13 @@ function Home() {
             <h1 className="ptn">{t('Featured Products')}</h1>
 
             <div className="productDetails">
-              <Card></Card>
+              {
+                HomeProducts.map((product, index) => {
+                      return (
+                          <Card key={index} product = {product}></Card>
+                      );
+                })
+              }
             </div>
         </div>
     </>
