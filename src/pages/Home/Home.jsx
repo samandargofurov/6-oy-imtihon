@@ -94,9 +94,9 @@ function Home() {
 
             <div className="productDetails">
               {
-                HomeProducts.map((product, index) => {
+                HomeProducts.map((products, index) => {
                       return (
-                          <Card key={index} product = {product}></Card>
+                          <Card key={index} product = {products}></Card>
                       );
                 })
               }

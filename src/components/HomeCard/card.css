@@ -32,7 +32,18 @@
 
 /* home cards */
 
+.HomeCard {
+    display: flex;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(158, 158, 158);
+    width: 300px;
+    padding: 25px;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
 
-.homeCard {
-    background-color: aqua;
+.HomeCardimage {
+    border-radius: 20px;
 }

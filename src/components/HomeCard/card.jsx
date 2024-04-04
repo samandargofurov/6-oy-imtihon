@@ -11,15 +11,15 @@ function Card(props) {
      }
 
   return (
-    <>
-        <div className="card">
-          <div className="card" style={{cursor: "pointer"}} onClick={handleRedirect}>
-            <img height={200} style={{width: "250px"}} src={image} alt="" />
-            <div className="homeCardTitle">{title}</div>
-            <div className="homeCardPrice">{price}</div>
+        <div className="HomeCard" style={{cursor: "pointer"}} onClick={handleRedirect}>
+          <div className='CardDetails'>
+            <img className='HomeCardimage' height={300} style={{width: "250px"}} src={image} alt='' />
+            <div className='card-bodyy text-centerr'>
+              <h5 className='card-titlee'>{title}</h5>
+              <h6 className='card-titlee'>{price}</h6>
+            </div>
           </div>
         </div>
-    </>
   )
 }
 
