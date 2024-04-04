@@ -60,9 +60,15 @@ function Products() {
             </div>
           </div>
 
-      {/* products details info */}
+          {/* category */}
 
-      <div className="container d-flex flex-wrap gap-4 mt-4">
+        <div>
+          
+        </div>
+
+          {/* products details info */}
+
+      <div className="producDetailsCardInfo">
           {
                products.map((product, index) => {
                     return (

@@ -1,7 +1,11 @@
 .color {
     background-color: #021431;
 }
-
+.productDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .signUp {
     display: flex;

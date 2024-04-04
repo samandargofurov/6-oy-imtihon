@@ -34,16 +34,32 @@
 
 .HomeCard {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     border-radius: 20px;
     box-shadow: 3px 3px 10px rgb(158, 158, 158);
-    width: 300px;
+    width: 330px;
     padding: 25px;
     display: flex;
     margin-top: 50px;
     text-align: center;
+    transition: all 1s;
+}
+
+.HomeCard:hover {
+    box-shadow: 15px 15px 50px rgb(158, 158, 158);
 }
 
 .HomeCardimage {
     border-radius: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #394E6A;
+}
+
+.card-price {
+    font-weight: 500;
+    color: #365175;
 }

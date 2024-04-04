@@ -80,3 +80,10 @@
     opacity: 0.699;
     color: #394E6A;
 }
+
+.producDetailsCardInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
